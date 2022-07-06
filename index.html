@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="brayan oliveira costa">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>cometario</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <form action="">
+                <label for="">Nome:</label><br>
+                <input type="text" id="nome" placeholder="digite seu nome" class="ipt-altura largura- maxima"><br><br>
+                <label for="">Comentario:</label><br>
+                <textarea  id="comentario"  placeholder="digite seu comentario" class="comentario largura-maxima"></textarea><br><br>
+                <label for="">Formatacao:</label><br>
+                <label for="">cor de texto</label>
+                <input type="color" id="corTexto">
+                <label for="">Cor de fundo:</label>
+                <input type="color" id="corFundo" value="#ffffff">
+                <br><br>
+                <button class="ipt-altura" onclick="postarCometario();">Enviar</button>
+</form><hr><br><br><br>
+<div class="comentarios"></div>
+        </div>
+    </header>
+    
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
